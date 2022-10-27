@@ -1,0 +1,71 @@
+.movie-page {
+  color: white;
+  display: flex;
+  margin: 2rem 10%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-page svg {
+  font-size: 1.3rem;
+  color: gold;
+}
+.movie-page .movie-card {
+  text-align: center;
+}
+
+.movie-page .movie-card img {
+  width: 70%;
+}
+
+.movie-page .movie-card img,
+.movie-page .movie-card h2,
+.movie-page .movie-card p {
+  margin-bottom: 1rem;
+}
+
+.movie-page .movie-card h2 {
+  font-size: 2rem;
+}
+
+.movie-page .movie-card p {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  font-size: 1.3rem;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.info {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info h3 {
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+#overview {
+  line-height: 1.4rem;
+  margin-bottom: 5rem;
+  max-width: 70%;
+}
+
+@media only screen and (max-width: 800px) {
+  .movie-page .movie-card img {
+    width: 100%;
+  }
+  #overview {
+    max-width: 100%;
+  }
+}

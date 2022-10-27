@@ -1,0 +1,85 @@
+.title {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.title .query-text {
+  color: gold;
+}
+
+.container {
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.movies-container {
+  display: grid;
+  place-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5%;
+  max-width: 90%;
+  margin: 0 5%;
+}
+
+.movies-container div {
+  color: white;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0d0d0d;
+  padding: 1rem;
+}
+
+.movies-container div img {
+  max-width: 90%;
+}
+
+.movies-container div img,
+.movies-container div h2,
+.movies-container div p {
+  margin-bottom: 1rem;
+}
+
+.movies-container div svg {
+  background-color: transparent;
+  color: gold;
+}
+
+.movies-container div a {
+  background-color: gold;
+  padding: 0.2rem 0.3rem;
+  border: 2px solid gold;
+  color: black;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+  height: 3rem;
+  width: 6rem;
+}
+
+.movies-container div a:hover {
+  background-color: transparent;
+  color: gold;
+}
+
+@media (max-width: 1000px) {
+  .movies-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .movies-container {
+    grid-template-columns: 1fr;
+  }
+}
