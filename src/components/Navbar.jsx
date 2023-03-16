@@ -11,13 +11,13 @@ const Navbar = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!search) return;
-    navigate(`/search?q=${search}`);
+    navigate(`/movies-library/search?q=${search}`);
     setSearch("");
   };
 
   return (
     <nav>
-      <NavLink to='/'>
+      <NavLink to="/movies-library/">
         <span> Mate's amazing &reg; </span>
         <h2>
           <BiCameraMovie />
@@ -27,8 +27,8 @@ const Navbar = () => {
       <form onSubmit={handleSubmit}>
         <input
           value={search}
-          type='text'
-          placeholder='Busque um filme'
+          type="text"
+          placeholder="Busque um filme"
           onChange={(e) => setSearch(e.target.value)}
         />
         <button>

@@ -25,14 +25,16 @@ const Search = () => {
   }, [query]);
 
   return (
-    <div className='container'>
-      <h2 className='title'>
-        Results for <span className='query-text'>{query}</span>
+    <div className="container">
+      <h2 className="title">
+        Results for <span className="query-text">{query}</span>
       </h2>
-      <section className='movies-container'>
-        {movies.length === 0 && <p>Nada encontrado</p>}
-        {movies.length > 0 &&
-          movies.map((movie) => <MovieCard movie={movie} key={movie.id} />)}
+      <section className="movies-container">
+        {movies?.length > 0 ? (
+          movies.map((movie) => <MovieCard movie={movie} key={movie.id} />)
+        ) : (
+          <p>Nada encontrado</p>
+        )}
       </section>
     </div>
   );

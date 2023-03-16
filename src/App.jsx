@@ -7,13 +7,13 @@ import Search from "./pages/Search";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/movies-library/' element={<Home />} />
-          <Route path='/movie/:id' element={<Movie />} />
-          <Route path='search' element={<Search />} />
+          <Route path="/movies-library/" element={<Home />} />
+          <Route path="/movies-library/movie/:id" element={<Movie />} />
+          <Route path="/movies-library/search" element={<Search />} />
         </Routes>
         <Outlet />
       </BrowserRouter>
