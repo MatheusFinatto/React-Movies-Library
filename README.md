@@ -10,5 +10,5 @@
   <li>Once the server has started, the terminal will display the link where the app is being hosted. For example, the link might be <code>localhost:5127/movies-library</code>.</li>
 </ol>
 <p>By following these simple steps, you'll be able to run the app locally on your machine.</p>
-Alternatively, you can view the final result at https://matheusfinatto.github.io/movies-library/. However, please note that due to issues with React Router and GitHub Pages, the search feature will not work correctly on the GitHub Pages version of the app. To ensure full functionality, I recommend running the app on localhost."
+Alternatively, you can view the final result at https://matheusfinatto.github.io/movies-library/. However, please note that due to issues with React Router and GitHub Pages, the search feature will not work correctly on the GitHub Pages version of the app. To ensure full functionality, I recommend running the app on localhost.
 <p>Thank you for using Matheus Finatto's Movies Library! We hope you enjoy using our app as much as we enjoyed creating it.</p>
