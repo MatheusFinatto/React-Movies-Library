@@ -1,6 +1,8 @@
 <body>
 <h1>Matheus Finatto's Movies Library</h1>
+  <h2><b>This was my first experience with React + API integration :)</b></h2>  
 <p>Welcome to Matheus Finatto's Movies Library, a React app that utilizes the TMDB API to display information about movies. Whether you're a movie buff or simply looking for something new to watch, our app has you covered!</p>
+
 <h2>How to Run the App</h2>
 <p>To run the app, simply follow these steps:</p>
 <ol>
