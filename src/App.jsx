@@ -11,9 +11,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/movies-library/" element={<Home />} />
-          <Route path="/movies-library/movie/:id" element={<Movie />} />
-          <Route path="/movies-library/search" element={<Search />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/movie/:id" element={<Movie />} />
+          <Route path="/search" element={<Search />} />
         </Routes>
         <Outlet />
       </BrowserRouter>
