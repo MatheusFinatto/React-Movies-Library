@@ -10,15 +10,14 @@
   <li>Open your terminal and navigate to the project directory.</li>
   <li>Run the command <code>npm install</code> to install the necessary dependencies.</li>
   <li>Run the command <code>npm run dev</code> to start the development server.</li>
-  <li>Once the server has started, the terminal will display the link where the app is being hosted. For example, the link might be <code>localhost:5127/movies-library</code>.</li>
+  <li>Once the server has started, the terminal will display the link where the app is being hosted. For example, the link might be <code>localhost:5127/</code>.</li>
 </ol>
 <p>By following these simple steps, you'll be able to run the app locally on your machine.</p>
-Alternatively, you can view the final result at https://matheusfinatto.github.io/movies-library/. However, please note that due to issues with React Router and GitHub Pages, the movies search feature will not work correctly on the GitHub Pages version of the app. To ensure full functionality, I recommend running the app on localhost, on the main branch.
+Alternatively, you can view the final result at https://matheusfinatto.github.io/. However, please note that due to issues with React Router and GitHub Pages, the movies search feature will not work correctly on the GitHub Pages version of the app. To ensure full functionality, I recommend running the app on localhost, on the main branch.
 <p>Thank you for viewing Matheus Finatto's Movies Library! I hope you enjoy using my app as much as I enjoyed creating it.</p>
 
 <h2>About me</h2>
 <p>I'm a web developer with a passion for front and back-end development. I'm always looking for new projects to work on and ways to improve my skills. Check out <a href= 'https://github.com/MatheusFinatto'>my other repositories</a> to see what else I've been working on!</p>
 <p>Feel free to reach out to me if you have any questions or feedback.</p>
-
 
 </body>

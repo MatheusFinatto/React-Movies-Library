@@ -11,13 +11,13 @@ const Navbar = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!search) return;
-    navigate(`/movies-library/search?q=${search}`);
+    navigate(`/search?q=${search}`);
     setSearch("");
   };
 
   return (
     <nav>
-      <NavLink to="/movies-library/">
+      <NavLink to="/">
         <span> Mate's amazing &reg; </span>
         <h2>
           <BiCameraMovie />
